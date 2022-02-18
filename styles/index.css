@@ -1,0 +1,40 @@
+#hero {
+    width: 100%;
+    min-height: 79vh;
+    padding: 2%;
+    background-image: url("../images/meWater.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    color: white;
+}
+
+#skills{
+    font-size: 2.7em;
+    text-shadow: 1px 1px 2px black;
+}
+
+#quoteBox{
+    margin-bottom: 4%;
+}
+
+#interestingFact{
+    font-size: 1.7em;
+    text-shadow: 1px 1px 2px black;
+}
+
+#quote{
+    display: inline-block;
+    font-size: 3.2em;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Caveat', cursive;
+}
+#quoteCreator{
+    display: inline-block;
+    font-size: 3em;
+    text-shadow: 1px 1px 2px black;
+}

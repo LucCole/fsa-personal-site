@@ -1,0 +1,80 @@
+h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.resume{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1em;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.resume h2{
+    margin-bottom: .4em;
+}
+
+.resume button{
+    padding: 1% 20%;
+    box-shadow: 0 0 5px -2px black;
+    background-color: #F7F1EA;
+    border:0;
+}
+
+.resume button:hover{
+    background-color: white;
+}
+
+.project{
+    background-color: #F7F1EA;
+    min-height: 100%;
+    padding: .7em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 10px -2px black;
+}
+
+.projectTitle{
+    /* Why is this here? */
+    /*height: 5vh;*/
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+    align-items: center;
+    font-family: 'Nova Flat', cursive;
+    padding: .2em;
+}
+
+.projectTitle a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #520184;
+    padding: .4em;
+}
+
+.projectTitle a:hover{
+    font-size: 1.2rem;
+    background-color: #7F00CE;
+}
+
+.project h3{
+    font-size: 1.9rem;
+}
+
+.project img{
+    max-width: 20vh;
+    float: left;
+    margin-right: .8em;
+    border: 1px solid darkgray;
+}
+
+.project p{
+    font-size: 1.4em;
+    margin: .7em;
+}
+
+/*.project p:last-child{
+    
+    margin-bottom: 0;
+}*/
